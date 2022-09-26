@@ -14,6 +14,7 @@ while True:
     # dt = clock.tick(600) / 1000
     dt = time.time() - previous_time
     previous_time = time.time()
+    
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
